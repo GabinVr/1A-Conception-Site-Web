@@ -8,9 +8,6 @@ h1 {
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: dimgray;
-    position: fixed;
-    left: 10pt;
-    top: 100pt;
 }
 
 body.section.h2 {
