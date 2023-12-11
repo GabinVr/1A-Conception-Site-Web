@@ -1,17 +1,37 @@
 body {
+    margin: 0%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
     color: dimgray;
-    margin: auto;
-    width: 50%;
+}
+
+h1 {
+    margin: 0;
+}
+
+header {
+    padding: 10px;
+    background-color: cornflowerblue;
+    width: 1000px;
+    transition: width 1.5s ease-in;
+}
+
+section {
     padding: 10px;
 }
 
+footer {
+    padding: 10px;
+}
+
+header:hover{
+    font-size: 50px;
+    width: 20px;
+}
 
 body.h1 {
     color: dimgrey;
     font-family:'Times New Roman', Times, serif;
-    font-size: 100px;
 }
 
 body.section.h2 {
@@ -31,3 +51,4 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: smaller;
 }
+

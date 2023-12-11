@@ -1,0 +1,55 @@
+
+.button{
+    border-radius: 10px;
+    box-shadow: -10px 10px 15px #4CAF50;
+    transition: 0.5s;
+}
+
+#butRed{
+    background-color: #F44336;
+    border-width: 1px;
+    border-color: #F44336;
+    box-shadow: -10px 10px 15px #F44336;
+    transition: 0.5s;
+}
+
+#butRed:hover{
+    cursor: pointer;
+    color: #F44336;
+    background-color: white;
+}
+
+#butBlue{
+    background-color: #008CBA;
+    border-width: 1px;
+    border-color: #008CBA;
+    box-shadow: -10px 10px 15px #008CBA;
+    transition: 0.5s;
+}
+
+#butBlue:hover{
+    cursor: pointer;
+    color: #008CBA;
+    background-color: white;
+}
+
+#butGray{
+    color: black;
+    background-color: #e7e7e7;
+    border-width: 1px;
+    border-color: #e7e7e7;
+    box-shadow: -10px 10px 15px #e7e7e7;
+    transition: 0.5s;
+}
+
+#butGray:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+
+.button:hover{
+    cursor: pointer;
+    color: #4CAF50;
+    background-color: white;
+}
