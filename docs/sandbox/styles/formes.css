@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+}
+
+article{
+    margin: 30px;
+}
+
+
+div#masque{
+    width: sqrt(2)*60px;
+    height: 38px;
+    overflow: hidden;
+}
+
+div#triangle{
+    width: 70px;
+    height: 50px;
+    background-color: orange;
+    margin: 20px;
+    rotate: 45deg;
+}
+
+
+div#triangle2{
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-top-color: brown;
+    border-right-color: transparent;
+    border-width: 1px;
+    border-top-width: 100px;
+    border-right-width: 100px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    margin: 15px;
+}
+
+div#cercle{
+    width: 20px;
+    height: 20px;
+    margin: 20px;
+    padding: 20px;
+    background-color: royalblue;
+    border-radius: 30px;
+}

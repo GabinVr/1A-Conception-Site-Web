@@ -53,3 +53,12 @@
     color: #4CAF50;
     background-color: white;
 }
+
+span:before{
+    content: " \00BB";
+    margin-right: 6px;
+}
+
+span:hover{
+    opacity: 0%;
+}
